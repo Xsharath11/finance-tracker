@@ -1,0 +1,12 @@
+{
+  "name": "finance-tracker",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "prepare": "husky",
+    "pre-commit": "pnpm --filter frontend pre-commit"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

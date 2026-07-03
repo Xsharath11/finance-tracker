@@ -38,3 +38,36 @@ out/
 
 ### DS_Store ###
 .DS_Store
+
+# Node
+node_modules/
+
+# pnpm
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Gradle
+.gradle/
+
+# Environment files
+.env
+.env.*
+
+!.env.example
+
+# Logs
+*.log
+
+# Docker volumes / local data
+data/
+
+# Coverage
+coverage/
+
+# OS files
+Thumbs.db
